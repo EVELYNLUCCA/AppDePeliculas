@@ -1,0 +1,5 @@
+Store: Es donde se van a guardar diferentes estados, diferentes grupos de estados.
+Cada "Reducer" es un grupo (Slice) de estados
+
+Cada Slice definido es esa agrupación de estados que va a guardar el Store.
+

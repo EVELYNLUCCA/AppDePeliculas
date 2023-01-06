@@ -1,0 +1,55 @@
+
+.contenedor{
+  /* width: 100%; ESTO GENERA QUE APAREZCA ALTERNATIVAMENTE EL SCROLL VERTICAL*/
+height: 40px;
+font-size: 8px;
+/* border-bottom: solid white 2px; */
+padding: 5px;
+margin: 0px;
+display: grid;
+grid-template-columns: 20% 60% 20%;
+align-items: center; /* centra vert*/
+background-color: hsl(0, 0%, 17%);
+}
+
+.titulo {
+  margin: 2px;
+  font-size: var(--sizetextmain);
+  text-align: left;
+
+}
+
+.centro {
+  margin: 2px;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.usuario {
+  display: grid;
+  grid-template-columns: auto min-content;
+  margin: 2px;
+  margin-right: 10px;
+  font-size: 1.3rem;
+  text-align: right;
+  padding: 0.1rem;
+}
+
+.menu{
+  margin: 2px;
+  /* font-size: var(--sizetextr1); */
+  text-align: center;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-items: center; /* centra vert*/
+  }
+
+  .lgoutbt {
+     margin: 0px;
+    padding: 0.4rem 0.6rem 0.4rem 0.6rem;
+    margin-left: 1rem;
+    margin-right: 0.5rem;
+    height: 20px;
+    font-size: var(--sizetextr3);
+    height: 2.5rem;
+  }

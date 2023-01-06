@@ -1,0 +1,63 @@
+
+  .submitbt {
+    margin: 12px;
+    padding: 3px;
+    height: 30px;
+  }
+
+
+
+.logincontainer {
+  /* width: 100%; ESTO GENERA QUE APAREZCA ALTERNATIVAMENTE EL SCROLL VERTICAL*/
+  font-size: 10px;
+  /* min-width: 50px; */
+  padding: 5px;
+  margin: 0px;
+  display: grid;
+  grid-template-columns: auto 26rem auto;
+  grid-template-areas:
+      "rellee1 areaformulario rellee2";
+  align-items: center; /* centra vert*/
+  justify-items: center;
+  justify-content: center;
+    }
+
+.formcontainer {
+display: grid;
+grid-area: areaformulario;
+grid-template-columns: auto;
+align-items: stretch;
+width: 100%;
+border-radius: 0.5rem;
+/* border: solid white 2px; */
+/* background-color: hsl(0, 0%, 14%); Este es el back original*/
+background-color: hsl(0, 0%, 17%);
+font-size: 10px;
+padding: 3rem;
+margin: 1rem;
+gap: 2rem;
+/* align-items: center;  */
+justify-items: center;
+justify-content: center;
+}
+
+.formcontainer input {
+  display: grid;
+  width: 100%;
+  resize: vertical;
+  padding: 0.4rem;
+  /* text-align: center; */
+  /* width: 20rem; */
+}
+
+
+
+.formcontainer button {
+  display: grid;
+  width: 100%;
+  resize: vertical;
+  /* width: 20rem; */
+  justify-items: center;
+justify-content: center;
+align-items: center;
+}

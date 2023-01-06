@@ -1,0 +1,107 @@
+.cardModalDiv {
+        /* display:none; */
+    /* display:flex; */
+    justify-content: center;
+    align-items: center;
+    /* position:fixed; */
+    position: relative;
+    z-index: 999;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    min-width: 300px;
+    max-width: 420px;
+    min-height: 250px;
+    max-height: 450px;
+/* 
+    top:0;
+    left:0; */
+    /* width: 100%;
+    min-height: 100vh; */
+    /* background-color: rgba(0,0,0,0.75); */
+
+}
+
+.cardBackDiv {
+    /* agregados */
+    /* agregados */
+    /* display:flex; */
+    position: fixed;
+    /* Esto cambiar desde props */
+    /* display: none; */
+    top:100px;
+    left: 20px;
+    /* Esto cambiar desde props */
+    z-index: 999;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    /* Estandard de la card */
+    transition: all 0.3s ease-in-out;
+    min-width: 300px;
+    max-width: 420px;
+    min-height: 250px;
+    max-height: 450px;
+    /* background-image: url(https://www.themoviedb.org/t/p/w300_and_h450_bestv2/62HCnUTziyWcpDaBO2i1DX17ljH.jpg); */
+    /* background-image: url(${(props)=>props.image}); */
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    /* color: white; */
+    text-shadow: 1px 1px 5px black;
+    overflow: visible;
+    }
+    
+.sectorButtonsDiv{
+    transition: all 0.3s ease-in-out;
+    /* width: 380px; */
+    /* height: 100px; */
+    width: 95%;
+    margin: auto;
+    background-color: black;
+    border-radius: 0 0 5px 5px;
+    position: absolute;
+    bottom: -120px;
+    padding: 10px;
+    }
+
+    
+.cardTitleH3 {
+    position: absolute;
+padding: 10px;
+bottom: 5px;
+/* // font-size:1.2rem */
+}
+
+
+
+.stButton {
+width: 30px;
+height: 30px;
+background-color: #333;
+border: 1px solid white;
+border-radius: 15px;
+color: white;
+padding: 0;
+margin: 5px;
+}
+
+
+.rightButton {
+width: 30px;
+height: 30px;
+background-color: #333;
+border: 1px solid white;
+border-radius: 15px;
+color: white;
+padding: 0;
+margin: 5px;
+float: "right";
+}
+
+
+
+
+

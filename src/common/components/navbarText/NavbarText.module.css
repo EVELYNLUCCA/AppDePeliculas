@@ -1,0 +1,13 @@
+
+.text{
+  margin: 0;
+  padding: 0;
+  font-size: var(--sizetextr1);
+}
+
+.textmk{
+  margin: 0;
+  padding: 0;
+  font-size: var(--sizetexti2);
+  font-weight:bold;
+}
